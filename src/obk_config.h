@@ -832,6 +832,7 @@
 #if PLATFORM_BK7236
 #define ENABLE_DRIVER_BATTERY					1
 #define ENABLE_DRIVER_BRIDGE					1
+#endif
 
 // closing OBK_CONFIG_H
 #endif
