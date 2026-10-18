@@ -42,7 +42,6 @@
 //#define ENABLE_LOG2LFS						1
 #endif
 
-
 #if PLATFORM_XRADIO
 
 // #define ENABLE_SEND_POSTANDGET				1
@@ -830,6 +829,9 @@
 #undef ENABLE_LOG2LFS
 #endif
 
+#if PLATFORM_BK7236
+#define ENABLE_DRIVER_BATTERY					1
+#define ENABLE_DRIVER_BRIDGE					1
 
 // closing OBK_CONFIG_H
 #endif
